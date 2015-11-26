@@ -21,8 +21,8 @@
 			</div>
 		</div>
 
-##Documentation and Demo
-http://vision89.github.io/lazy-grid-style/components/lazy-grid-style/
+##Demo
+http://vision89.github.io/lazy-grid-style/components/lazy-grid-style/demo/index.html
 
 ##License
 This is licensed under the MIT license.  To be the first person in history to read the MIT license agreement see LICENSE.txt.
