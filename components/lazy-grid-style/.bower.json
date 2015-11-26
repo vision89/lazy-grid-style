@@ -1,0 +1,40 @@
+{
+  "name": "lazy-grid-style",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed",
+    "web-components",
+    "grid",
+    "css",
+    "style"
+  ],
+  "main": "lazy-grid-style.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "e2d61adbdd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e2d61adbddbcb39b9394e6fb7bc0c3e6140e7130"
+  },
+  "_source": "git://github.com/vision89/lazy-grid-style.git",
+  "_target": "master",
+  "_originalSource": "vision89/lazy-grid-style",
+  "_direct": true
+}
