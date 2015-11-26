@@ -15,32 +15,153 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <title>lazy-grid-style Demo</title>
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="../lazy-grid-style.html">
+    <style>
+      
+      .row {
+        
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        
+      }
+      
+    </style>
   </head>
   <body unresolved>
 
     <p>An example of <code>&lt;lazy-grid-style&gt;</code>:</p>
 
-    <p>Make words! <button id="saybtn">Say Something</button></p>
-    <p>Make lasers! <button id="laserbtn">Fire lasers</button></p>
+    <template is="dom-bind" id="app">
 
-    <lazy-grid-style author='{"name": "Lord Meowser", "image": "http://placekitten.com/g/200/300"}' fancy>
-      <h2>Hello lazy-grid-style</h2>
-    </lazy-grid-style>
+      <style is="custom-style" include="lazy-grid-style"></style>
+
+      <div class="grid-container">
+
+        <div class="row">
+          
+          <span class="col-5">
+            
+            Row 1 Column 1
+
+          </span>
+
+          <span class="col-5">
+
+            Row 1 Column 2
+
+          </span>
+
+        </div>
+
+        <div class="row">
+
+          <span class="col-2">
+
+            Row 2 Column 1
+
+          </span>
+
+          <span class="col-2">
+
+            Row 2 Column 2
+
+          </span>
+
+          <span class="col-2">
+
+            Row 2 Column 3
+
+          </span>
+
+          <span class="col-2">
+
+            Row 2 Column 4
+
+          </span>
+
+          <span class="col-2">
+
+            Row 2 Column 5
+
+          </span>
+
+        </div>
+        
+        <div class="row">
+
+          <span class="col-1">
+
+            Row 3 Column 1
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 2
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 3
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 4
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 5
+
+          </span>
+          
+          <span class="col-1">
+
+            Row 3 Column 6
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 7
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 8
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 9
+
+          </span>
+
+          <span class="col-1">
+
+            Row 3 Column 10
+
+          </span>
+
+        </div>
+
+      </div>
+
+    </template>
 
     <script>
-      var seedElement = document.querySelector('lazy-grid-style');
-      
-      document.querySelector('#saybtn').addEventListener('click', function() {
-        alert(seedElement.sayHello('Hallo!'));
-      });
-      
-      document.querySelector('#laserbtn').addEventListener('click', function() {
-        seedElement.fireLasers();
-      });
-      
-      document.addEventListener("lazy-grid-style-lasers", function(e) {
-        console.log(e.detail.sound);
-      });
+
+      var seedElement = document.querySelector('#app');
+
+      ( function ( document ) {
+
+      })();
       
     </script>
 
